@@ -24,9 +24,9 @@ class ZadarmaAPI(object):
         self.key = key
         self.secret = secret
         self.is_sandbox = is_sandbox
-        self.__url_api = 'https://api.zadarma.com'
+        self.__url_api = 'https://api.novofon.com'
         if is_sandbox:
-            self.__url_api = 'https://api-sandbox.zadarma.com'
+            self.__url_api = 'https://api-sandbox.novofon.com'
 
     def call(self, method, params={}, request_type='GET', format='json', is_auth=True):
         """
