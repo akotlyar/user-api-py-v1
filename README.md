@@ -1,4 +1,4 @@
-# zadarma-py-api
+# novofon-py-api
 Class which help you work with API novofon (v1)
 
 ## Requirements:

@@ -12,7 +12,7 @@ import requests
 import base64
 
 
-class ZadarmaAPI(object):
+class novofonAPI(object):
 
     def __init__(self, key, secret, is_sandbox=False):
         """
